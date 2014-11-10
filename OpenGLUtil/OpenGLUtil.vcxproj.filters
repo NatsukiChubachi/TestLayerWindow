@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LayerWindow">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="BMPImage">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="WindowExecBase">
+      <UniqueIdentifier>{3857ec03-4dd2-4879-baba-36b8289ec089}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LayerWindow.cpp">
+      <Filter>LayerWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="BMPImage.cpp">
+      <Filter>BMPImage</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowExecBase.cpp">
+      <Filter>WindowExecBase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LayerWindow.h">
+      <Filter>LayerWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="BMPImage.h">
+      <Filter>BMPImage</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowExecBase.h">
+      <Filter>WindowExecBase</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

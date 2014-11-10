@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testGL", "testGL\testGL.vcxproj", "{75AC3AF8-83A9-4C26-980F-DC49408C8EB6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGLUtil", "OpenGLUtil\OpenGLUtil.vcxproj", "{49543D06-FB85-4FED-8E36-C38AE6D231C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75AC3AF8-83A9-4C26-980F-DC49408C8EB6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{75AC3AF8-83A9-4C26-980F-DC49408C8EB6}.Debug|Win32.Build.0 = Debug|Win32
+		{75AC3AF8-83A9-4C26-980F-DC49408C8EB6}.Release|Win32.ActiveCfg = Release|Win32
+		{75AC3AF8-83A9-4C26-980F-DC49408C8EB6}.Release|Win32.Build.0 = Release|Win32
+		{49543D06-FB85-4FED-8E36-C38AE6D231C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{49543D06-FB85-4FED-8E36-C38AE6D231C3}.Debug|Win32.Build.0 = Debug|Win32
+		{49543D06-FB85-4FED-8E36-C38AE6D231C3}.Release|Win32.ActiveCfg = Release|Win32
+		{49543D06-FB85-4FED-8E36-C38AE6D231C3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
